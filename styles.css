@@ -55,13 +55,14 @@ cursor: pointer;
     color: #ffffff;
     margin-top: 20px;
     font-size: 28px;
-    font-weight: 400;
+    font-weight: 300;
 }
 
 .temp{
-    font-size: 20px;
+    font-size: 19px;
     color: #ffffff;
     margin-top: 20px;
+    font-weight: 700;
 }
 
 .container-small{
@@ -73,11 +74,13 @@ cursor: pointer;
 .climate{
     color: #ffffff;
     margin-left: 20px;
+    text-transform: capitalize;
 }
 
 .info-hum{
  color: #ffffff;
  margin-top: 20px;
+ 
 }
 
 .img-temp{
