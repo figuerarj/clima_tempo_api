@@ -4,3 +4,82 @@
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("https://source.unsplash.com/2500x1667/?city");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-bigger{
+ background-color: #000000;
+ padding: 20px;
+ border-radius: 20px;
+ opacity: 0.9;
+ width: 95%;
+ max-width: 500px;
+ 
+ 
+}
+.input-city{
+ border: none;
+ outline: none;
+ padding: 10px;
+ border-radius: 20px;
+ font-size: 20px;
+ background-color: #7c7c7c2b;
+ color:#ffffff;
+ max-width: calc( 100% - 60px );
+
+}
+.button{
+border: none;
+outline:none;
+padding: 10px;
+border-radius: 50%;
+background-color: #7c7c7c2b;
+float: right;
+cursor: pointer;
+
+}
+
+.img-button{
+    height: 20px;
+    filter: invert(66%) sepia(11%) saturate(1861%) hue-rotate(155deg) brightness(85%) contrast(91%);
+}
+
+.city{
+    color: #ffffff;
+    margin-top: 20px;
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.temp{
+    font-size: 20px;
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+.container-small{
+    margin-top: 20px;
+    display:flex;
+    align-items: center;
+}
+
+.climate{
+    color: #ffffff;
+    margin-left: 20px;
+}
+
+.info-hum{
+ color: #ffffff;
+ margin-top: 20px;
+}
+
+.img-temp{
+    width: 30px;
+}
