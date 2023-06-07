@@ -1,4 +1,5 @@
 const key = "1562a8c142ef4944f71d2543961d6236";
+const input = document.querySelector(".input-city");
 
 function placeDataOnHtml(data) {
   document.querySelector(".city").innerHTML = `Temperatura em ${data.name}`;
@@ -30,3 +31,10 @@ function getNameCity() {
 
   document.querySelector(".input-city").value = "";
 }
+
+input.addEventListener("keypress", function(event){
+    if(event.key === "Enter"){
+        getNameCity();
+    }
+})
+
