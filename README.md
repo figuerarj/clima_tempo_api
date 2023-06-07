@@ -37,6 +37,7 @@ You can use the lang parameter to get the output in your language.
 Translation is applied for the city name and description fields.
 
 https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={API key}&lang={lang}
+
 ## Features
 
 #### City Query: 
@@ -47,6 +48,8 @@ Utilizing the OpenWeather API, the project fetches up-to-date information on tem
 The project's interface is intuitive and easy to use, enabling users to quickly obtain the desired weather information.
 #### Responsive Design: 
 The project is compatible with mobile devices, allowing users to conveniently access weather information on their smartphones or tablets.
+
+
 ## Learnings
 
 These were some of the learnings I obtained while developing this project:
@@ -64,11 +67,23 @@ During development, I encountered errors when making API calls or processing the
 ### 4 - UI/UX: 
 I had the opportunity to practice and improve my skills in user interface (UI) and user experience (UX) design while creating the project's interface. It was important to create an intuitive and user-friendly interface that made it easy to view the weather information.
 
-
-
 I enjoyed every step of the learning process and constantly sought new knowledge and skills. It was an enriching and rewarding experience.
 
+## Enhancements
 
+During the development of this city weather information project, I have implemented several enhancements to improve the user experience. Here are the main improvements made:
+
+#### 1 - Floating Effect: 
+I added a subtle floating effect to the application's interface, providing a more dynamic and pleasant feel to the user during interaction with the app.
+
+#### 2 - Emphasis on Weather Condition: 
+I further highlighted the information about the current weather condition. Now, the weather condition is prominently displayed, allowing the user to quickly obtain this essential information about the city's weather.
+
+#### 3 - Customized Icons: 
+I personalized the icons used in the application to visually represent different weather conditions. Now, the icons are more intuitive and help the user quickly identify the current weather situation.
+
+
+These enhancements aim to make the user experience more enjoyable, intuitive, and efficient when using the city weather application. I hope these additions provide an even more pleasant and useful interaction for users.
 
 ## Demonstration
 
@@ -76,6 +91,7 @@ I enjoyed every step of the learning process and constantly sought new knowledge
 https://figuerarj.github.io/clima_tempo_api/
 
 Link to access the final version of the app.
+
 ## Screenshot
 
 ![App Screenshot](https://github.com/figuerarj/clima_tempo_api/blob/main/img_project_climate.jpg?raw=true)
