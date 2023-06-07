@@ -7,12 +7,12 @@ function placeDataOnHtml(data) {
   document.querySelector(".climate").innerHTML = data.weather[0].description;
   /*weather[0].toUpperCase() + weather.substr(1);*/
   const iconcode = data.weather[0].icon;
-  console.log(iconcode);
   const urlicon = "icons/" + iconcode + ".png";
   document.querySelector(".img-temp").src = urlicon;
   document.querySelector(
     ".info-hum"
   ).innerHTML = `Umidade: ${data.main.humidity}%`;
+  
 }
 
 async function getData(city) {
@@ -25,6 +25,8 @@ async function getData(city) {
 
 function getNameCity() {
   const city = document.querySelector(".input-city").value;
-
+  
   getData(city);
+
+  document.querySelector(".input-city").value = "";
 }
