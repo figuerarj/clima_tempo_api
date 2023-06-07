@@ -13,7 +13,6 @@ function placeDataOnHtml(data) {
   document.querySelector(
     ".info-hum"
   ).innerHTML = `Umidade: ${data.main.humidity}%`;
-  
 }
 
 async function getData(city) {
@@ -26,15 +25,14 @@ async function getData(city) {
 
 function getNameCity() {
   const city = document.querySelector(".input-city").value;
-  
+
   getData(city);
 
   document.querySelector(".input-city").value = "";
 }
 
-input.addEventListener("keypress", function(event){
-    if(event.key === "Enter"){
-        getNameCity();
-    }
-})
-
+input.addEventListener("keypress", function (event) {
+  if (event.key === "Enter") {
+    getNameCity();
+  }
+});
