@@ -78,5 +78,5 @@ https://figuerarj.github.io/clima_tempo_api/
 Link to access the final version of the app.
 ## Screenshot
 
-![App Screenshot](https://previews.dropbox.com/p/thumb/AB5KJQugOR6GwAMJ7FDFKoRy4hb2typzuGnk7tXTKZVcrN5l1y-x6iY9Rniaq52nqwWw5AREYn253tmg3sMDNXEV3zUadAFWQ-K8woRzSaSBCCVvRDl_P-lMqGJXM-0ZcuRiQ-mD0WfhjhnJsvcoUDOialuvHMurcUP5aGqcaGuBcFRXZoeyRrzyOLDmjCDL1NKp1_N5YrChgHjQAiD0VkCelTuCaeBLcAnNEuYABLbk1UV86fATcMVJYIdZAuUOsn3jogFsYAD6AAKbHc-Sm_nWcYDtd1sjT0i-dmF_Vtq0mkM3tzCZQI8SgvdbrlWPoKOvo5snIEhkGSJH6_Liihhgq_PxHvr7ghvueG_c8g8cDQwOaD2Wd1B8sTsuaEsOhv0/p.jpeg)
+![App Screenshot](https://github.com/figuerarj/clima_tempo_api/blob/main/img_project_climate.jpg?raw=true)
 
