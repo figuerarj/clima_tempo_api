@@ -7,7 +7,8 @@ function placeDataOnHtml(data) {
   document.querySelector(".climate").innerHTML = data.weather[0].description;
   /*weather[0].toUpperCase() + weather.substr(1);*/
   const iconcode = data.weather[0].icon;
-  const urlicon = "http://openweathermap.org/img/wn/" + iconcode + ".png";
+  console.log(iconcode);
+  const urlicon = "icons/" + iconcode + ".png";
   document.querySelector(".img-temp").src = urlicon;
   document.querySelector(
     ".info-hum"
