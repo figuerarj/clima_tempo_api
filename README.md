@@ -82,6 +82,15 @@ I further highlighted the information about the current weather condition. Now, 
 #### 3 - Customized Icons: 
 I personalized the icons used in the application to visually represent different weather conditions. Now, the icons are more intuitive and help the user quickly identify the current weather situation.
 
+#### 4 - Loading Implementation:
+
+The loading effect is displayed as an animated element at the center of the screen, indicating that the content is being loaded. Once all the content is loaded, the loading effect is automatically hidden. This ensures a smooth transition between the loading phase and the display of the main content.
+
+The loading implementation was done using HTML, CSS, and JavaScript. In the HTML file, a <div> element with the ID "preloader" was added, which contains an additional <div> element with the ID "loader" for the animation. CSS defines the appearance of the loading effect, while JavaScript is responsible for hiding the loading effect once the loading is complete.
+
+This addition of the loading effect helps provide a more pleasant experience for users, visually informing them that the content is being loaded and preventing them from feeling frustrated or disoriented during this process.
+
+
 
 These enhancements aim to make the user experience more enjoyable, intuitive, and efficient when using the city weather application. I hope these additions provide an even more pleasant and useful interaction for users.
 
