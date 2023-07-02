@@ -12,7 +12,13 @@
       rel="stylesheet"
     />
   </head>
-  <body>
+  <body onLoad="loading()">
+    <div id="preloader">
+      <div id="loader"></div>
+    </div>
+
+
+   <div class="container-principal">
     <div class="container-bigger">
       <input class="input-city" type="text" placeholder="Nome da cidade" />
       <button class="button" onclick="getNameCity()">
@@ -32,5 +38,7 @@
       </div>
 
     <script src="scripts.js"></script>
+    <script src="loading.js"></script>
+  </div>
   </body>
 </html>
